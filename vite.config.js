@@ -5,4 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/EPortfolio/",
   plugins: [react(), tailwindcss()],
+  server: {
+    port: 3001,
+    open: true,
+  },
 });
