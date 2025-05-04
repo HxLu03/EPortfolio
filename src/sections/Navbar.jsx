@@ -88,7 +88,7 @@ const Navbar = () => {
               <img
                 src={`${base}assets/socials/github.svg`} // Corrected template literal syntax
                 alt="GitHub"
-                className="w-5 h-5 mr-1"
+                className="w-5 h-5 mr-3"
               />
               {stars !== null ? (
                 <span>{stars} Stars</span>
