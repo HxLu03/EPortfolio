@@ -59,6 +59,10 @@ body {
   @apply sm:px-10 px-5 lg:px-15;
 }
 
+section {
+  scroll-margin-top: 64px; /* Adjust this value to match your navbar height */
+}
+
 .hover-animation {
   @apply hover:-translate-y-1 duration-200;
 }

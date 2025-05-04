@@ -30,16 +30,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_r94e3mn",
+        "template_sjrz1z8",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Leo Lu",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "leo0306lu@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "uHE76W6KlnIHXrPH4"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -51,7 +51,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section className="relative flex items-center c-space section-spacing" id="contact">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -65,7 +65,8 @@ const Contact = () => {
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
             Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            platform, or bring a unique project to life, I'm here to help. <br />{" "}
+            <span className="font-bold text-neutral-300">Let's connect!</span>
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +79,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Your Name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +95,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="client@email.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

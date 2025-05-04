@@ -3,221 +3,35 @@ export const myProjects = [
     id: 1,
     title: "E-commerce Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A comprehensive e-commerce platform built with NextJS, ReactJS, NodeJS, Vite, Docker, and various cloud services.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Designed and implemented end-to-end functionalities—including SEO, CMS, CRM, and a role-based admin control system—to streamline operations and enhance both frontend responsiveness and backend reliability.",
+      "Optimized open-source Admin and CMS frameworks through API and database customizations; integrated additional tools such as Meilisearch, Google Analytics, and SendGrid.",
+      "Built a responsive, custom web page from scratch with full internationalization support (Simplified/Traditional Chinese, English, Japanese, Korean)",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Snapshot.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "vitejs",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
+        name: "react",
         path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "nodejs",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
+        name: "stripe",
         path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -225,104 +39,135 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "GitHub",
+    href: "https://github.com/HxLu03",
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/haoxuanlu/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/leo0306_/",
     icon: "/assets/socials/instagram.svg",
   },
+  {
+    name: "WeChat",
+    // pops up a QR code for WeChat
+    href: "https://www.wechat.com/en/",
+    icon: "/assets/socials/WeChat.svg",
+  },
+  {
+    name: "Tiktok CN",
+    href: "https://v.douyin.com/0QFWZqaLEuw/",
+    icon: "/assets/socials/douyin.svg",
+  },
+  {
+    name: "xiaohongshu",
+    href: "https://www.xiaohongshu.com/user/profile/5d470775000000001603562b?xsec_token=YBydf5CQz9iNGHbQMMYT8WATbxR-JKRPUDEqglfs4WzDo%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=5d470775000000001603562b&apptime=1746332167&share_id=9df882e412dd4b31a05cd2eecb4ea54a&share_channel=copy_link/",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.svg",
+  }
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
+    title: "Bachelor of Computer Science",
+    job: "University of Melbourne",
     date: "2021-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Major in Computing and Software Systems",
+      "Graduation in December 2023",
+      "Coursework: Calculus, Linear Algebra, Probability, Statistics, Algorithms & Data Structures, Database Systems, Object-Oriented Software Design, Information Security & Privacy, Data Processing, Artificial Intelligence",
+      "Concrete experience in software development, data analysis, and machine learning through various course projects and internships.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Game Developer & Code Quality Assurance",
+    job: "Undergraduate Intern Project",
+    date: "August 2023 - November 2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Worked on a project to develop a game for autistic children, focusing on emotional learning and regulation.",
+      "Collaborated with a team to design and implement the game, ensuring it met the needs of the target audience.",
+      "Conducted code quality assurance to ensure the game was bug-free and met performance standards.",
+      "Employed Agile Scrum methodologies to create an interactive game based on a novel scientific theory of emotions, aimed at helping autistic children learn and regulate feelings.",
+      "Achieved cross-platform compatibility (Linux, Windows, iOS, Android, and web) with high user satisfaction, and integrated the final product into an iOS application built with React Native.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Master of Information Technology",
+    job: "University of Melbourne",
+    date: "Februaray 2024- July 2025",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Specialized in Distributed Computing",
+      "Graduation in July 2025",
+      "Coursework: Cluster & Cloud Computing, Machine Learning, Natural Language Processing, Computer Vision, Software Management, Distributed Systems & Algorithms, Advanced Database Systems & Algorithms",
+      "Projects: Big Data Visualization and Analytics on the Cloud, Auto Evidence-Retrieval and Claim Labelling, 3D Collision Predictions Based on 2D Images, Parallel Processing of Big Data on High Performance Computers",
+
+    ],
+  },
+  {
+    title: "Research Software Engineer",
+    job: "Walter & Eliza Hall Institute of Medical Research (WEHI)",
+    date: "July 2024 - December 2024",
+    contents: [
+      "Worked on a project to develop a web-based platform for data integration and analysis of medical research databases.",
+      "Collaborated with a team to design and implement the platform, ensuring it met the needs of the research community.",
+      "Established 90% of coding work (front/backend) at early start of tasks; led and mentored two undergraduate colleagues to develop an integration platform for medical research databases",
+      "Engineered solutions with ReactJS and Python frameworks; deployed on Nectar Research Cloud to establish a scalable testing environment and support future collaborative developments",
+
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    job: "E-Commerce Web Platform",
+    date: "December 2024 - March 2025",
+    contents: [
+      "Developed a comprehensive e-commerce platform using NextJS, ReactJS, NodeJS, Vite, Docker, and various cloud services; contributed over 90% of frontend coding and provided deep expertise for API integration.",
+      "Designed and implemented end-to-end functionalities—including SEO, CMS, CRM, and a role-based admin control system—to streamline operations and enhance both frontend responsiveness and backend reliability.",
+      "Optimized open-source Admin and CMS frameworks through API and database customizations, leading to a 20% boost in query performance; integrated additional tools such as Meilisearch, Google Analytics, and SendGrid.",
+      "Built a responsive, custom web page from scratch with full internationalization support (Simplified/Traditional Chinese, English, Japanese, Korean); enhanced client and user accessibility and satisfaction by 40%.",
+      "Spearheaded a multicultural developer team, coordinating regular client meetings and agile planning sessions, accelerating project delivery by 30%.",
+    ],
+  },
+  {
+    title: "Full Stack Developer/Product Owner",
+    job: "Fintech/Financial Forecasting App",
+    date: "February 2025-Present",
+    contents: [
+      "Developed a cross-platform mobile application using Flutter for smooth and responsive UI.",
+      "Backend using Java Springboot to ensure robust and scalable backend services.",
+      "Followed modular architecture with MVVM (Model-View-ViewModel) separation using the Stacked package.",
+      "Integrated secure Open Banking APIs to process real-time financial data and deliver personalized insights.",
+      "Implemented features include user authentication, goal management, expense tracking, and financial profile management.",
+      "Designed and developed interactive and animated expense charts for visualizing user expenses.",,
     ],
   },
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "No Clients Yet",
+    username: "@no_clients_yet",
+    body: "Hope to get some soon! No Feedback yet.",
     img: "https://robohash.org/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "No Clients Yet",
+    username: "@no_clients_yet",
+    body: "Hope to get some soon! No Feedback yet.",
+    img: "https://robohash.org/jack",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "No Clients Yet",
+    username: "@no_clients_yet",
+    body: "Hope to get some soon! No Feedback yet.",
+    img: "https://robohash.org/jack",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    name: "No Clients Yet",
+    username: "@no_clients_yet",
+    body: "Hope to get some soon! No Feedback yet.",
+    img: "https://robohash.org/jack",
   },
 ];
