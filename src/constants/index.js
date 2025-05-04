@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export const myProjects = [
   {
     id: 1,
@@ -11,64 +13,30 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Snapshot.png",
+    image: `${base}assets/projects/Snapshot.png`,
     tags: [
       {
         id: 1,
         name: "vitejs",
-        path: "/assets/logos/vitejs.svg",
+        path: `${base}assets/logos/vitejs.svg`,
       },
       {
         id: 2,
         name: "react",
-        path: "/assets/logos/react.svg",
+        path: `${base}assets/logos/react.svg`,
       },
       {
         id: 3,
         name: "nodejs",
-        path: "/assets/logos/nodejs.svg",
+        path: `${base}assets/logos/nodejs.svg`,
       },
       {
         id: 4,
         name: "stripe",
-        path: "/assets/logos/stripe.svg",
+        path: `${base}assets/logos/stripe.svg`,
       },
     ],
   },
-];
-
-export const mySocials = [
-  {
-    name: "GitHub",
-    href: "https://github.com/HxLu03",
-    icon: "/assets/socials/github.svg",
-  },
-  {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/haoxuanlu/",
-    icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/leo0306_/",
-    icon: "/assets/socials/instagram.svg",
-  },
-  {
-    name: "WeChat",
-    // pops up a QR code for WeChat
-    href: "https://www.wechat.com/en/",
-    icon: "/assets/socials/WeChat.svg",
-  },
-  {
-    name: "Tiktok CN",
-    href: "https://v.douyin.com/0QFWZqaLEuw/",
-    icon: "/assets/socials/douyin.svg",
-  },
-  {
-    name: "xiaohongshu",
-    href: "https://www.xiaohongshu.com/user/profile/5d470775000000001603562b?xsec_token=YBydf5CQz9iNGHbQMMYT8WATbxR-JKRPUDEqglfs4WzDo%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=5d470775000000001603562b&apptime=1746332167&share_id=9df882e412dd4b31a05cd2eecb4ea54a&share_channel=copy_link/",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.svg",
-  }
 ];
 
 export const experiences = [
