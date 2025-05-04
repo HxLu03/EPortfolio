@@ -78,7 +78,7 @@ const Navbar = () => {
 
   const scrollToBottom = () => {
     if (contactRef.current) {
-      contactRef.current.scrollIntoView({ behavior: "smooth" });
+      contactRef.current.scrollIntoView({ behavior: "smooth",  block: "end" });
     }
   };
 
