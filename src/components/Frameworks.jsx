@@ -2,7 +2,6 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
-    "auth0",
     "git",
     "html5",
     "javascript",
@@ -23,12 +22,10 @@ export function Frameworks() {
     "springboot",
     "jetbrains",
     "jira",
-    "django",
     "figma",
     "pytorch",
     "kafka",
     "redis",
-    "trello"
   ];
   
   return (
