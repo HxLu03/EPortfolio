@@ -2,6 +2,8 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+import ReCAPTCHA from "react-google-recaptcha";    
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -12,6 +14,12 @@ const Contact = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [alertType, setAlertType] = useState("success");
   const [alertMessage, setAlertMessage] = useState("");
+
+  const [captchaValue, setCaptchaValue] = useState(null);
+
+  const onCaptchaChange = (value) => {                       
+    setCaptchaValue(value);
+  };
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -25,6 +33,10 @@ const Contact = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!captchaValue) {
+      showAlertMessage("danger", "Please verify you’re human!");
+      return;
+    }
     setIsLoading(true);
 
     try {
@@ -117,6 +129,12 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               required
+            />
+          </div>
+          <div className="mb-5">                                 
+          <ReCAPTCHA
+              sitekey="6Lf0SjArAAAAAGEX3xpbEF6eCMXfnCZmNQ33DoxH"
+              onChange={onCaptchaChange}
             />
           </div>
           <button
