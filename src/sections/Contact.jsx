@@ -131,7 +131,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="mb-5">                                 
+          <div className="mb-5 flex items-center justify-center">                                 
           <ReCAPTCHA
               sitekey="6Lf0SjArAAAAAGEX3xpbEF6eCMXfnCZmNQ33DoxH"
               onChange={onCaptchaChange}
